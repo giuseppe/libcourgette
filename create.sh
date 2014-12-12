@@ -1,6 +1,6 @@
 #/bin/sh
 
-git clone https://chromium.googlesource.com/chromium/src/courgette
+git clone https://github.com/giuseppe/courgette.git
 
 cd courgette
 

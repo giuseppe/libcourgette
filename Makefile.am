@@ -221,6 +221,7 @@ libcourgette_a_SOURCES = \
 	courgette/base/rand_util.cc \
 	courgette/base/barrier_closure.cc \
 	courgette/base/sys_info_linux.cc \
+	courgette/disassembler_elf_64_x86_64.cc \
 	\
 	courgette/adjustment_method_2.cc \
 	courgette/adjustment_method.cc \
