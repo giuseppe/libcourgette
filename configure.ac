@@ -6,14 +6,14 @@ AC_INIT([libcourgette], [0.1], [/dev/null])
 AC_CONFIG_SRCDIR([courgette/courgette.h])
 AC_CONFIG_HEADERS([config.h])
 
-AM_INIT_AUTOMAKE([1.9])
+AM_INIT_AUTOMAKE([subdir-objects])
 
 # Checks for programs.
 AC_PROG_CXX
 AC_PROG_CC
 AC_PROG_RANLIB
 
-AX_CXX_COMPILE_STDCXX_0X
+CXXFLAGS=-std=c++0x
 
 # Checks for libraries.
 
